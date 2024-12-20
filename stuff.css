@@ -1,3 +1,10 @@
 body {
 	background-color: darkred;
+	color: white;
 }
+div {
+	color: red;
+}
+
+#dnd {
+	opacity: 0;

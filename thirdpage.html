@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+	<link rel ="stylesheet" href="stuff.css">
+	<script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<a href = "firstpage.html">
+		<button>Introduction</button>
+	</a>
+	<a href = "secondpage.html">
+		<button>Portfolio</button>
+	</a>
+</head>
+<body>
+	<h2>NOW HERE IS A LIST OF MY FAVORITE, MOST BELOVED THINGS</h2>
+	
+	<ol>
+		<h3>MY NERD HOBBY: DUNGEONS AND DRAGONS!!!</h3>
+		<img src = "C:\Users\814093\Downloads\images.png" id="dnd">
+			<p>I LIKE TO PLAY THIS GAME WITH MY FRIEND GROUP! IT IS A VERY FUN GAME IF YOU HAVE A GOOD DM (WHICH WE ALWAYS HAVE) AND A COHESIVE FRIENDS GROUP. WE LIKE TO PLAY IN PERSON, HOWEVER NOT EVERYONE CAN MAKE 100% OF THE TIME SO SOMETIMES SESSIONS CAN BE A LITTLE WEIRD BUT STILL GREAT AND ENJOYABLE NONETHELESS</p>
+		<h3>FOOODDDDD!!!!!!</h3>
+		<img src = "C:\Users\814093\Downloads\download (1).jpg" length = 300 width = 300>
+		<img src = "C:\Users\814093\Downloads\download (2).jpg" length = 300 width = 300>
+		<img src = "C:\Users\814093\Downloads\download (3).jpg" length = 200 width = 300>
+			<p>WHO DOESN'T LOVE A GOOD BURGER!? I VERY MUCH LOVE FOOD, PROBABLY ONE OF MY FAVORITE THINGS TO DO OTHER THAN THE THINGS LISTED ON MY HOBBIES PAGE IS EAT A GOOD MEAL. I ALSO LOVE TRYING NEW THINGS AS WELL! ONE DAY I WOULD LIKE TO TRY SNAKE, MAYBE SPIDERS, OR REINDEER. FOR NOW THOUGH, I LOVE ALL THE FOOD I EAT REALLY. I CAN'T POINT OUT A FAVORITE QUISINE, BUT I DO TEND TO LIKE AMERICAN, JAPANESE, AND INDIAN FOOD MORE THAN OTHERS.
+		
+	
+<script>
+	var opacity = 0;
+
+	function MyFadeFunction() {
+   		if (opacity<1) {
+      			opacity += .1;
+      			setTimeout(function(){MyFadeFunction()},100);
+   	}
+  	document.getElementById('dnd').style.opacity = opacity;
+}
+
+$(document).ready(MyFadeFunction)
+</script>
+</body>
